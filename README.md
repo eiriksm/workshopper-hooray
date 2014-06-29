@@ -12,7 +12,7 @@ It shows some random big letters of celebrations with an ascii art style.
 ## Installation
 `npm install --save workshopper-hooray`
 
-`workshopper-hooray` requires `workshopper` >=1.2.0
+`workshopper-hooray` requires `workshopper` >=1.2.1
 
 ## Usage
 This module is to be used as a celebratory message for completing all challenges
