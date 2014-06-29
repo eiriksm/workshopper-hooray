@@ -4,7 +4,8 @@
   "description": "A more excessive and celebratory hooray message for workshopper modules.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha -R spec",
+    "test-cov": "./node_modules/istanbul/lib/cli.js cover -- ./node_modules/mocha/bin/_mocha -R spec"
   },
   "repository": {
     "type": "git",
