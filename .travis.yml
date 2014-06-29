@@ -1,8 +1,15 @@
 language: node_js
 node_js:
-  - "0.11"
-  - "0.10"
-
+- '0.11'
+- '0.10'
 script:
-  - npm run-script test-cov
-  - cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js > /dev/null 2>&1
+- npm run-script test-cov
+- cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js > /dev/null 2>&1
+deploy:
+  provider: npm
+  email: eirik@morland.no
+  api_key:
+    secure: S9ifJWoQEQsGt2K42265FjrD9FAXUm13FN6oQjdBkAC+hZvOPj9zz9ovOqp29SOWa7Dlf9ys7793SYSMtXErIsdgbduiExCcSC4YKWO2haAa8FqjSzBUlYIPvpiswwTP+hOmIvi7CuxchxXkbdJtWDM9G4PHsyixOsTLEjmUbU0=
+  on:
+    tags: true
+    repo: eiriksm/workshopper-hooray
