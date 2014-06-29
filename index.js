@@ -24,17 +24,20 @@ var word2 = [
 ];
 
 module.exports = function(text, cb) {
-  var callback = cb || function(err, data) {
+  var callback = function(err, data) {
     // Defaults to writing the message to the console. In green.
     console.log(data.green);
     // Just a blank line.
     console.log("\n");
     // And the line that used to be the "hooray" message.
     console.log('You\'ve finished all the challenges! Hooray!\n');
+    if (cb) {
+      cb(err, data);
+    }
   };
   // Support callback as only parameter.
   if (typeof(text) === 'function') {
-    callback = text;
+    cb = text;
     text = undefined;
   }
   if (!text) {
