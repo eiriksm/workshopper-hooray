@@ -1,0 +1,33 @@
+{
+  "name": "workshopper-hooray",
+  "version": "0.0.1",
+  "description": "A more excessive and celebratory hooray message for workshopper modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eiriksm/workshopper-hooray.git"
+  },
+  "keywords": [
+    "workshopper",
+    "nodeschool"
+  ],
+  "author": "Eirik S. Morland <eirik@morland.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eiriksm/workshopper-hooray/issues"
+  },
+  "homepage": "https://github.com/eiriksm/workshopper-hooray",
+  "dependencies": {
+    "colors": "^0.6.2",
+    "figlet": "^1.0.9"
+  },
+  "devDependencies": {
+    "coveralls": "^2.10.1",
+    "istanbul": "^0.2.13",
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
+  }
+}
