@@ -59,7 +59,6 @@ workshopper({
     hooray(function() {
       // Add another colorful message to be shown afterwards.
       console.log('Hope you enjoyed that ^^'.rainbow);
-      // And add some colors in there.
       // _Always_ call the callback from the onComplete hook:
       callback();
     });
