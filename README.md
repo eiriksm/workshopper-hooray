@@ -40,3 +40,29 @@ workshopper({
   onComplete: hooray
 })
 ```
+
+... or you could add your own callback to run something before or after workshopper-hooray.:
+
+```js
+require('colors');
+
+workshopper({
+  name : 'example',
+  title : 'Example workshop',
+  subtitle : 'Learn how do a lot of awesome stuff',
+  appDir : __dirname,
+  menuItems   : [],
+  exerciseDir : fpath('./exercises/'),
+  helpFile    : fpath('help.txt'),
+  onComplete: function(callback) {
+    console.log('Please enjoy this complementary ascii-art');
+    hooray(function() {
+      // Add another colorful message to be shown afterwards.
+      console.log('Hope you enjoyed that ^^'.rainbow);
+      // And add some colors in there.
+      // _Always_ call the callback from the onComplete hook:
+      callback();
+    });
+  }
+})
+```
