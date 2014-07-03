@@ -65,3 +65,11 @@ workshopper({
   }
 })
 ```
+
+... or if you don't want that corny randomly generated text:
+```js
+  // ...
+  onComplete: function(callback) {
+    hooray('Good job!', callback);
+  }
+```
