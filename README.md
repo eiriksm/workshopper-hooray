@@ -9,7 +9,7 @@ A more excessive and celebratory hooray message for workshopper modules.
 
 It shows some random big letters of celebrations with an ascii art style.
 
-![Such ascii, much hooray!](https://raw.githubusercontent.com/eiriksm/workshopper-hooray/workshop.gif)
+![Such ascii, much hooray!](https://raw.githubusercontent.com/eiriksm/workshopper-hooray/master/workshop.gif)
 
 ## Installation
 `npm install --save workshopper-hooray`
