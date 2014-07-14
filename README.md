@@ -9,6 +9,8 @@ A more excessive and celebratory hooray message for workshopper modules.
 
 It shows some random big letters of celebrations with an ascii art style.
 
+![Such ascii, much hooray!](https://raw.githubusercontent.com/eiriksm/workshopper-hooray/workshop.gif)
+
 ## Installation
 `npm install --save workshopper-hooray`
 
@@ -16,9 +18,9 @@ It shows some random big letters of celebrations with an ascii art style.
 
 ## Usage
 This module is to be used as a celebratory message for completing all challenges
-in a workshoppper-workshop.
+in a [workshoppper](https://github.com/rvagg/workshopper)-workshop.
 
-Example usage:
+### Example usage:
 
 ```js
 var workshopper = require('workshopper');
