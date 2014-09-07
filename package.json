@@ -1,6 +1,6 @@
 {
   "name": "workshopper-hooray",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A more excessive and celebratory hooray message for workshopper modules.",
   "main": "index.js",
   "scripts": {
