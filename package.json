@@ -23,11 +23,11 @@
   "homepage": "https://github.com/eiriksm/workshopper-hooray",
   "dependencies": {
     "colors": "^0.6.2",
-    "figlet": "^1.0.10"
+    "figlet": "^1.1.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.1",
-    "istanbul": "^0.3.0",
+    "istanbul": "^0.3.2",
     "mocha": "^1.21.4",
     "should": "^4.0.4"
   }
