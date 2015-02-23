@@ -28,7 +28,7 @@ var path = require('path');
 var hooray = require('workshopper-hooray');
 
 function fpath (f) {
-  return path.join(__dirname, f)
+  return path.join(__dirname, f);
 }
 
 workshopper({
@@ -40,7 +40,7 @@ workshopper({
   exerciseDir : fpath('./exercises/'),
   helpFile    : fpath('help.txt'),
   onComplete: hooray
-})
+});
 ```
 
 ... or you could add your own callback to run something before or after workshopper-hooray.:
@@ -65,7 +65,7 @@ workshopper({
       callback();
     });
   }
-})
+});
 ```
 
 ... or if you don't want that corny randomly generated text:
